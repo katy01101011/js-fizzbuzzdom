@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: black;
 }
 
 .container {
@@ -18,7 +18,12 @@ body {
     line-height: 100px;
     text-align: center;
     margin: 1rem;
-    border: 1px solid black;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.f-b {
+    background-color: yellowgreen;
 }
 
 .fizz {
@@ -28,9 +33,13 @@ body {
 }
 
 .buzz {
-    background-color: plum;
+    background-image: url(../img/buzz.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fizz-buzz {
-    background-color: lightskyblue;
+    background-image: url(../img/smile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
